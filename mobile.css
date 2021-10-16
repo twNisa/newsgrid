@@ -1,0 +1,28 @@
+/* nav */
+#main-nav .social{
+  display:none;
+}
+#main-nav .container{
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+}
+#main-nav ul,
+#main-nav .logo{
+  justify-self: center;
+}
+#main-nav ul li a{
+  padding: .5rem;
+}
+
+#editor .articles-container{
+  grid-template-columns: repeat(2,1fr);
+}
+#editor .articles-container > *:first-child{
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+#editor .articles-container > *:last-child{
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+
